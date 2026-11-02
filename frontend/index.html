@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Persistent AI Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="brand">✦ AI Chatbot</div>
+        <button id="newChat">+ New Chat</button>
+
+        <h4>Saved Conversations</h4>
+        <div id="sessions"></div>
+    </aside>
+
+    <main class="chat">
+        <header>
+            <strong>Persistent AI Assistant</strong>
+            <span>● Connected</span>
+        </header>
+
+        <div id="messages" class="messages">
+            <div class="welcome">
+                <h1>How can I help you?</h1>
+                <p>Your conversations are saved in MongoDB Atlas.</p>
+            </div>
+        </div>
+
+        <form id="chatForm">
+            <input
+                id="messageInput"
+                placeholder="Ask anything..."
+                autocomplete="off"
+                required
+            >
+            <button id="sendBtn" type="submit">➤</button>
+        </form>
+    </main>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
