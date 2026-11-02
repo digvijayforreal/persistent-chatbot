@@ -14,27 +14,7 @@
   <b>Chat naturally. Save conversations. Continue where you left off.</b>
 </p>
 
----
 
-## 📸 Project Preview
-
-<!-- Add your actual project screenshots to the screenshots/ folder -->
-
-<p align="center">
-  <img src="screenshots/chat-interface.png" width="90%" alt="Persistent Chatbot Interface" />
-</p>
-
-<p align="center">
-  <i>Main chatbot interface with saved conversations and AI responses.</i>
-</p>
-
-<p align="center">
-  <img src="screenshots/conversation-history.png" width="90%" alt="Saved Conversation History" />
-</p>
-
-<p align="center">
-  <i>Previously saved conversations.</i>
-</p>
 
 ---
 
